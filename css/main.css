@@ -19,4 +19,72 @@ html {
 
 body {
   background-color: #e5c30a;
+  margin: 0;
+}
+
+h1 {
+
+}
+
+.wrapper {
+  margin: 0;
+  max-width: 100%;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.dragon-letter {
+  float: left;
+}
+
+.dragon {
+  float: right;
+}
+
+@media only screen and (min-width: 25em) {
+  h1 {
+    font-size: 100%;
+    line-height: 1.3;
+  }
+
+  .dragon-letter {
+    float: left;
+  }
+
+  .dragon {
+    float: right;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+  h1 {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+  h1 {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+  h1 {
+    font-size: 130%;
+    line-height: 1.5;
+  }
+
 }
